@@ -13,3 +13,31 @@ function areaCircunferencia(radio1){
 
 const result = areaCircunferencia(520);
 console.log(result);
+
+
+function mayorDeDosNumeros(ingresoUno, ingresoDos){
+    if (ingresoUno > ingresoDos) {
+        return ingresoUno + " es mayor que " + ingresoDos
+    }   else {
+        return ingresoDos + " es mayor que " + ingresoUno
+    }
+}
+
+const resultado = mayorDeDosNumeros(40, 391);
+console.log(resultado);
+
+let mensaje = "Hola clase de javascript Ada School";
+
+console.log(mensaje.length);
+
+function containsWord(mensaje, texto){
+   const resultado = mensaje.indexOf("clase");
+   if(resultado){
+    console.log("La palabra " + texto + " se encuentra en el mensaje")
+   }
+   
+
+/*    console.log(resultado);
+   console.log(texto); */
+}
+containsWord("Hola clase de javascript Ada School", "clase");
